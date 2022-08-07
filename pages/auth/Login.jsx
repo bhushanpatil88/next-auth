@@ -23,7 +23,7 @@ const Login = () => {
 	
 	const { push } = useRouter()
 
-	if (status === 'loading') return <Heading>Verifying The User...</Heading>
+	if (status === 'loading') return <Heading>Checking for Authentication...</Heading>
 
 
 	if (session) {
